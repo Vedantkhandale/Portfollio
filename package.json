@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-studio",
+  "version": "1.0.0",
+  "description": "Premium portfolio with Bootstrap, vanilla JS, and SQLite contact storage.",
+  "type": "module",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
