@@ -174,7 +174,9 @@ function renderProjects() {
       (project) => `
         <div class="col-lg-4 col-md-6 project-item reveal" data-category="${project.category || "all"}">
           <article class="project-card">
-            <div class="project-visual ${project.gradient || "gradient-one"}"></div>
+            <div class="project-visual ${project.visualClass || "visual-product"}">
+              <img src="${project.image || "assets/images/digital-studio.png"}" alt="${project.title || "Project"} visual" loading="lazy" />
+            </div>
             <div class="project-meta">
               <span class="project-tag">${project.tag || ""}</span>
               <h3>${project.title || ""}</h3>
@@ -305,6 +307,12 @@ function renderContent() {
   setText("#heroPanelLabel", hero.panelLabel || "");
   setText("#heroPanelEdition", hero.panelEdition || "");
   setText("#heroStackText", hero.stackText || "");
+
+  const heroArt = document.getElementById("heroArt");
+  if (heroArt && hero.artwork) {
+    heroArt.src = hero.artwork;
+    heroArt.alt = `${site.fullName || "Your Name"} digital portfolio visual`;
+  }
 
   const previewCards = hero.previewCards || [];
   setText("#previewOneLabel", previewCards[0]?.label || "");
@@ -486,6 +494,34 @@ function initializeProjectFilters() {
   });
 }
 
+function initializeInteractiveVisuals() {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    return;
+  }
+
+  const heroPanel = document.querySelector(".hero-panel");
+  if (heroPanel) {
+    heroPanel.addEventListener("pointermove", (event) => {
+      const bounds = heroPanel.getBoundingClientRect();
+      const horizontalPosition = (event.clientX - bounds.left) / bounds.width - 0.5;
+      const verticalPosition = (event.clientY - bounds.top) / bounds.height - 0.5;
+      heroPanel.style.transform = `perspective(900px) rotateX(${verticalPosition * -4}deg) rotateY(${horizontalPosition * 5}deg)`;
+    });
+
+    heroPanel.addEventListener("pointerleave", () => {
+      heroPanel.style.transform = "";
+    });
+  }
+
+  document.querySelectorAll(".project-card").forEach((projectCard) => {
+    projectCard.addEventListener("pointermove", (event) => {
+      const bounds = projectCard.getBoundingClientRect();
+      projectCard.style.setProperty("--pointer-x", `${event.clientX - bounds.left}px`);
+      projectCard.style.setProperty("--pointer-y", `${event.clientY - bounds.top}px`);
+    });
+  });
+}
+
 function renderStatus(message, type) {
   const formStatus = document.getElementById("formStatus");
   if (!formStatus) {
@@ -580,6 +616,7 @@ function initializePage() {
   initializeCounterObserver();
   initializeMessageCount();
   initializeProjectFilters();
+  initializeInteractiveVisuals();
   initializeContactForm();
   refreshSubmissionCount();
   window.addEventListener("scroll", updateNavbarState);

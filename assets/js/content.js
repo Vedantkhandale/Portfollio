@@ -2,219 +2,223 @@ window.portfolioContent = {
   site: {
     shortName: "YN",
     fullName: "Your Name",
-    titleSuffix: "Portfolio Studio",
-    description: "Write a clean meta description here for your portfolio and services.",
-    email: "yourmail@example.com",
-    location: "Your City, Country",
-    responseTime: "Typical reply within 24 hours",
-    footerText: "Add a strong footer line that sums up your work or creative style.",
+    titleSuffix: "Digital Portfolio",
+    description: "A personal portfolio for Your Name — designer, developer, and digital problem solver.",
+    email: "hello@yourdomain.com",
+    location: "Your City, India",
+    responseTime: "Usually replies within 24 hours",
+    footerText: "Available for thoughtful digital projects and creative collaborations.",
     socials: [
-      { label: "Instagram", url: "#", icon: "bi-instagram" },
       { label: "LinkedIn", url: "#", icon: "bi-linkedin" },
-      { label: "GitHub", url: "#", icon: "bi-github" }
+      { label: "GitHub", url: "#", icon: "bi-github" },
+      { label: "Instagram", url: "#", icon: "bi-instagram" }
     ]
   },
   nav: {
-    ctaLabel: "Book a project",
+    ctaLabel: "Let's talk",
     ctaHref: "#contact"
   },
   hero: {
-    kicker: "Premium portfolio for creators and builders",
-    title: "Write a headline that instantly explains your value.",
+    kicker: "Independent developer & creative problem solver",
+    title: "I design digital experiences that feel as good as they work.",
     description:
-      "Use this space to introduce your niche, your style, and the kind of projects you want people to contact you for.",
-    primaryCtaLabel: "See featured work",
+      "Replace this with a short introduction about who you are, the kind of work you do, and the people or brands you help.",
+    primaryCtaLabel: "Explore my work",
     primaryCtaHref: "#projects",
     secondaryCtaLabel: "Start a project",
     secondaryCtaHref: "#contact",
+    artwork: "assets/images/digital-studio.png",
     badges: [
-      { icon: "bi-stars", text: "Premium visual direction" },
-      { icon: "bi-lightning-charge", text: "Responsive fast layout" },
-      { icon: "bi-database-check", text: "Contact data stored locally" }
+      { icon: "bi-lightning-charge-fill", text: "Fast, responsive builds" },
+      { icon: "bi-stars", text: "Thoughtful visual direction" },
+      { icon: "bi-phone", text: "Built for every screen" }
     ],
-    panelLabel: "Live studio mode",
-    panelEdition: "Portfolio edition",
+    panelLabel: "Open for new work",
+    panelEdition: "Portfolio / 2026",
     metrics: [
-      { value: 12, suffix: "+", label: "Projects completed" },
-      { value: 95, suffix: "%", label: "Client satisfaction" }
+      { value: 12, suffix: "+", label: "Projects shipped" },
+      { value: 100, suffix: "%", label: "Care for the details" }
     ],
     previewCards: [
-      { label: "Signature skill", title: "Mention your strongest service here" },
-      { label: "Differentiator", title: "Add what makes your work feel premium" },
-      { label: "Tech stack", title: "List your tools or delivery approach" }
+      { label: "Focus", title: "Websites that make a first impression" },
+      { label: "Approach", title: "Strategy, design, and clean code" },
+      { label: "Currently", title: "Available for freelance work" }
     ],
-    stackText: "HTML, CSS, JavaScript, Bootstrap, Node, SQLite"
+    stackText: "HTML · CSS · JavaScript · Node.js"
   },
   marquee: [
-    "Creative Direction",
-    "Frontend Development",
-    "Responsive UX",
-    "Personal Branding",
-    "Landing Pages",
-    "Lead Capture System"
+    "Web Development",
+    "UI / UX Design",
+    "Creative Coding",
+    "Responsive Websites",
+    "Frontend Systems",
+    "Digital Experiences"
   ],
   about: {
-    kicker: "About the portfolio",
-    title: "Explain who you are and why your work stands out.",
+    kicker: "A little about me",
+    title: "Good design is clear, useful, and memorable.",
     description:
-      "Use two or three lines here to tell visitors what you build, the style you bring, and the outcomes you care about.",
+      "This is your space to tell your story. Add your background, what you enjoy building, and the perspective you bring to every project.",
     signatureName: "Your Name",
-    signatureRole: "Designer, developer, creator",
+    signatureRole: "Your role / specialty",
     cards: [
       {
         number: "01",
-        title: "Your positioning",
-        description: "Describe how you think, plan, or approach projects differently."
+        title: "Your perspective",
+        description: "Share the point of view or value that makes your work different."
       },
       {
         number: "02",
-        title: "Your style",
-        description: "Talk about the visual tone, user experience, or brand energy you bring."
+        title: "Your craft",
+        description: "Mention your strongest design, development, or problem-solving skills."
       },
       {
         number: "03",
-        title: "Your delivery",
-        description: "Mention build quality, responsiveness, or technical strengths."
+        title: "Your standards",
+        description: "Describe the level of detail, quality, and care you bring to a project."
       },
       {
         number: "04",
-        title: "Your promise",
-        description: "State the result clients can expect when they work with you."
+        title: "Your next chapter",
+        description: "Add the kind of opportunities, roles, or collaborations you are looking for."
       }
     ]
   },
   services: {
-    kicker: "Services",
-    title: "List the offers you want people to actually buy.",
+    kicker: "What I can help with",
+    title: "Practical digital work, made with intention.",
     items: [
       {
-        icon: "bi-window-fullscreen",
-        title: "Portfolio Website",
-        description: "Add a short description of this service and the value it gives clients.",
-        points: ["Hero section strategy", "Responsive polished design", "Single-page delivery"]
+        icon: "bi-window-stack",
+        title: "Portfolio websites",
+        description: "Personal sites that show your work, build trust, and make it easy to reach you.",
+        points: ["Clear personal positioning", "Responsive front-end build", "Easy content updates"]
       },
       {
-        icon: "bi-rocket-takeoff",
-        title: "Landing Page",
-        description: "Use this card to explain your launch pages, product pages, or campaign pages.",
-        points: ["Offer clarity", "Section sequencing", "Clear conversion flow"]
+        icon: "bi-grid-1x2",
+        title: "Landing pages",
+        description: "Focused pages for a product, service, launch, or campaign with a clear next step.",
+        points: ["Conversion-led structure", "Visual UI direction", "Performance-first build"]
       },
       {
-        icon: "bi-database-gear",
-        title: "Lead Capture Setup",
-        description: "Mention forms, backend wiring, contact storage, or booking system support.",
-        points: ["Form validation", "Local database storage", "Expandable backend setup"]
+        icon: "bi-code-slash",
+        title: "Frontend development",
+        description: "Polished and accessible interfaces translated from ideas or design files into working code.",
+        points: ["Clean component structure", "Subtle interactions", "Reliable handoff"]
       }
     ]
   },
   projects: {
-    kicker: "Featured work",
-    title: "Show the type of projects you want more of.",
+    kicker: "Selected work",
+    title: "A few directions your next project could take.",
     filters: [
-      { label: "All", value: "all" },
+      { label: "All work", value: "all" },
+      { label: "Product", value: "product" },
       { label: "Brand", value: "brand" },
-      { label: "SaaS", value: "saas" },
       { label: "Creator", value: "creator" }
     ],
     items: [
       {
-        category: "saas",
-        tag: "SaaS Launch",
+        category: "product",
+        tag: "Product experience",
         title: "Project One",
-        description: "Replace this with a short description of your first featured project.",
-        gradient: "gradient-one",
-        linkLabel: "Build something similar",
+        description: "Replace this with a concise result, a challenge you solved, or the key feature you built.",
+        image: "assets/images/digital-studio.png",
+        visualClass: "visual-product",
+        linkLabel: "View project",
         linkHref: "#contact"
       },
       {
         category: "creator",
-        tag: "Creator Brand",
+        tag: "Creator portfolio",
         title: "Project Two",
-        description: "Replace this with a short description of your second featured project.",
-        gradient: "gradient-two",
-        linkLabel: "Build something similar",
+        description: "Write a short project summary here. Keep it specific, outcome-led, and easy to scan.",
+        image: "assets/images/digital-studio.png",
+        visualClass: "visual-creator",
+        linkLabel: "View project",
         linkHref: "#contact"
       },
       {
         category: "brand",
-        tag: "Agency Site",
+        tag: "Brand website",
         title: "Project Three",
-        description: "Replace this with a short description of your third featured project.",
-        gradient: "gradient-three",
-        linkLabel: "Build something similar",
+        description: "Use this card for another strong piece of work, case study, or concept project.",
+        image: "assets/images/digital-studio.png",
+        visualClass: "visual-brand",
+        linkLabel: "View project",
         linkHref: "#contact"
       }
     ]
   },
   stack: {
-    kicker: "Stack and strengths",
-    title: "Add the tools, skills, and capabilities that support your delivery.",
+    kicker: "Tools and strengths",
+    title: "The ideas I use to move work from blank page to live product.",
     items: [
       "HTML5",
       "CSS3",
-      "Bootstrap 5",
       "JavaScript",
-      "Responsive Design",
+      "React",
       "Node.js",
-      "SQLite",
+      "Responsive Design",
       "UI Animation",
-      "Landing Page Strategy",
-      "Portfolio Storytelling",
-      "Lead Capture UX",
-      "Performance Focus"
+      "Web Accessibility",
+      "Creative Direction",
+      "Design Systems",
+      "Performance",
+      "Problem Solving"
     ]
   },
   process: {
-    kicker: "Process",
-    title: "Map your delivery flow so people know what working with you feels like.",
+    kicker: "How I work",
+    title: "A calm, clear process from first idea to launch.",
     steps: [
       {
         index: "01",
-        title: "Discovery",
-        description: "Explain how you understand the client, project goals, or visual direction."
+        title: "Listen and align",
+        description: "We define the goal, audience, scope, and the feeling the final experience should create."
       },
       {
         index: "02",
-        title: "Planning",
-        description: "Describe your layout planning, section flow, or content structure."
+        title: "Shape the direction",
+        description: "I turn the brief into a focused page structure, visual direction, and practical build plan."
       },
       {
         index: "03",
         title: "Design and build",
-        description: "Summarize how you design the UI and convert it into responsive code."
+        description: "The work comes to life through refined layouts, responsive code, and purposeful interactions."
       },
       {
         index: "04",
-        title: "Launch support",
-        description: "Mention revisions, testing, deployment help, or post-launch support."
+        title: "Polish and launch",
+        description: "We check every screen, refine the details, and get your project ready to share with the world."
       }
     ]
   },
   testimonial: {
-    quote: "Replace this with a real client testimonial or a line that reinforces your quality.",
+    quote: "Add a real client testimonial here. A short, specific line about the experience or outcome works best.",
     author: "Client Name",
-    role: "Role or company",
+    role: "Role, Company",
     metrics: [
-      { value: 40, suffix: "%", label: "Better enquiry quality" },
-      { value: 3, suffix: "", label: "Weeks to launch" },
-      { value: 100, suffix: "%", label: "Mobile responsive" }
+      { value: 24, suffix: "h", label: "Typical reply time" },
+      { value: 100, suffix: "%", label: "Mobile-first thinking" },
+      { value: 1, suffix: ":1", label: "Personal collaboration" }
     ]
   },
   contact: {
-    kicker: "Contact",
-    title: "Invite people to reach out with the right energy.",
+    kicker: "Let's build something",
+    title: "Have a project in mind? Let's make it feel exceptional.",
     description:
-      "Use this space for your final pitch, expected response time, or a short note that makes starting the conversation easy.",
+      "Tell me a little about what you are working on. Replace this copy with your availability, ideal clients, or your own invite to connect.",
     points: [
-      { icon: "bi-envelope-open", text: "yourmail@example.com" },
-      { icon: "bi-geo-alt", text: "Your City, working worldwide" },
-      { icon: "bi-clock-history", text: "Reply within 24 hours" }
+      { icon: "bi-envelope", text: "hello@yourdomain.com" },
+      { icon: "bi-geo-alt", text: "Your City, available worldwide" },
+      { icon: "bi-clock-history", text: "Usually replies within 24 hours" }
     ],
-    servicePlaceholder: "Select a service",
-    serviceOptions: ["Portfolio Website", "Landing Page", "Lead Capture Setup", "Full Brand Refresh"],
-    budgetPlaceholder: "Choose budget",
-    budgetOptions: ["INR 25k - 50k", "INR 50k - 1L", "INR 1L - 2L", "INR 2L+"],
-    submitLabel: "Send project inquiry",
+    servicePlaceholder: "What do you need help with?",
+    serviceOptions: ["Portfolio website", "Landing page", "Frontend development", "Something else"],
+    budgetPlaceholder: "What is your budget range?",
+    budgetOptions: ["Under ₹25k", "₹25k – ₹50k", "₹50k – ₹1L", "₹1L+"],
+    submitLabel: "Send your inquiry",
     loadingLabel: "Sending..."
   }
 };

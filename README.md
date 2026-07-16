@@ -21,13 +21,14 @@ Then open `http://localhost:3000`.
 
 ## Edit your information
 
-Update your personal details, hero text, services, projects, skills, contact points, and social links in `assets/js/content.js`.
+Update your personal details, hero text, services, projects, skills, contact points, and social links in `assets/js/content.js`. Every user-facing value is grouped there so you do not need to hunt through the HTML.
 
 Main editable files:
 
 - `assets/js/content.js` for all text, cards, projects, contact data, and links
 - `index.html` only if you want structural changes
 - `assets/css/style.css` only if you want design tweaks
+- `assets/images/digital-studio.png` for the generated hero and project-card visual
 
 ## Development mode
 
@@ -39,4 +40,4 @@ npm run dev
 
 - Requires Node.js `24+` because it uses the built-in `node:sqlite` module.
 - Starting the server creates `data/portfolio.sqlite` automatically if it does not already exist.
-- Update the text content in `index.html` to personalize names, projects, and links.
+- Replace the generated visual with your own work screenshots when your project images are ready; update the matching `image` fields in `assets/js/content.js`.
