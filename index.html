@@ -1,318 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Replace this text from assets/js/content.js to personalize your portfolio."
-    />
-    <title>Vedant Khandale | Portfolio Studio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@500;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="100" tabindex="0">
-    <div class="page-shell">
-      <div class="ambient ambient-one"></div>
-      <div class="ambient ambient-two"></div>
-      <div class="ambient ambient-three"></div>
 
-      <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#home">
-            <span id="brandMark" class="brand-mark">Vedant Khandale</span>
-            <span id="brandText" class="brand-text">Vedant Khandale</span>
-          </a>
-          <button
-            class="navbar-toggler shadow-none border-0"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navMenu"
-            aria-controls="navMenu"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navMenu">
-            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
-              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-              <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-              <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
-              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-              <li class="nav-item ms-lg-2">
-                <a id="navCta" class="btn btn-sm btn-brand" href="#contact">Book a project</a>
-              </li>
-            </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Replace this text from assets/js/content.js to personalize your portfolio." />
+  <title>Vedant Khandale | Portfolio Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@500;700;800&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="100" tabindex="0">
+  <div class="page-shell">
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="ambient ambient-three"></div>
+
+    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <span id="brandMark" class="brand-mark">Vedant Khandale</span>
+          <span id="brandText" class="brand-text">Vedant Khandale</span>
+        </a>
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item ms-lg-2">
+              <a id="navCta" class="btn btn-sm btn-brand" href="#contact">Book a project</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="container position-relative">
+          <div class="row align-items-center gy-5">
+            <div class="col-lg-7">
+              <div class="hero-copy reveal">
+                <p id="heroKicker" class="section-kicker">Your portfolio kicker</p>
+                <h1 id="heroTitle" class="hero-title">Write a strong headline for your personal brand.</h1>
+                <p id="heroText" class="hero-text">
+                  I’m a Full Stack Web Developer passionate about building modern, responsive, and user-friendly digital
+                  experiences. I specialize in creating clean interfaces and functional web applications using
+                  technologies like HTML, CSS, JavaScript, PHP, MySQL, and Python. My style combines creative design
+                  with practical functionality, focusing on simplicity, performance, and a smooth user experience.
+
+                </p>
+                <div class="hero-actions">
+                  <a id="heroPrimaryCta" class="btn btn-brand btn-lg" href="#projects">See featured work</a>
+                  <a id="heroSecondaryCta" class="btn btn-outline-shell btn-lg" href="#contact">Start a project</a>
+                </div>
+                <div id="heroBadges" class="hero-badges"></div>
+                <div id="heroSocials" class="hero-socials"></div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="hero-panel reveal">
+                <div class="hero-panel-top">
+                  <span id="heroPanelLabel" class="live-pill">Live studio mode</span>
+                  <span id="heroPanelEdition" class="text-uppercase small">Portfolio edition</span>
+                </div>
+                <div class="hero-panel-body">
+                  <div id="heroMetrics"></div>
+                  <div class="project-preview">
+                    <div class="preview-window">
+                      <div class="preview-glow"></div>
+                      <div class="preview-grid"></div>
+                      <div class="preview-card preview-card-main">
+                        <span id="previewOneLabel">Preview</span>
+                        <strong id="previewOneTitle">Add your strongest capability here</strong>
+                      </div>
+                      <div class="preview-card preview-card-side">
+                        <span id="previewTwoLabel">Highlight</span>
+                        <strong id="previewTwoTitle">Show another differentiator here</strong>
+                      </div>
+                      <div class="preview-card preview-card-bottom">
+                        <span id="previewThreeLabel">Stack</span>
+                        <strong id="previewThreeTitle">Mention your build process or tech stack</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hero-panel-footer">
+                  <div>
+                    <span class="footer-label">Latest inbox count</span>
+                    <strong data-submission-count>0</strong>
+                  </div>
+                  <div>
+                    <span class="footer-label">Stack</span>
+                    <strong id="heroStackText">HTML, CSS, JS, Bootstrap, Node, SQLite</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
+      </section>
 
-      <main>
-        <section id="home" class="hero-section">
-          <div class="container position-relative">
-            <div class="row align-items-center gy-5">
-              <div class="col-lg-7">
-                <div class="hero-copy reveal">
-                  <p id="heroKicker" class="section-kicker">Your portfolio kicker</p>
-                  <h1 id="heroTitle" class="hero-title">Write a strong headline for your personal brand.</h1>
-                  <p id="heroText" class="hero-text">
-                   I’m a Full Stack Web Developer passionate about building modern, responsive, and user-friendly digital experiences. I specialize in creating clean interfaces and functional web applications using technologies like HTML, CSS, JavaScript, PHP, MySQL, and Python. My style combines creative design with practical functionality, focusing on simplicity, performance, and a smooth user experience.
-
-                  </p>
-                  <div class="hero-actions">
-                    <a id="heroPrimaryCta" class="btn btn-brand btn-lg" href="#projects">See featured work</a>
-                    <a id="heroSecondaryCta" class="btn btn-outline-shell btn-lg" href="#contact">Start a project</a>
-                  </div>
-                  <div id="heroBadges" class="hero-badges"></div>
-                  <div id="heroSocials" class="hero-socials"></div>
-                </div>
-              </div>
-              <div class="col-lg-5">
-                <div class="hero-panel reveal">
-                  <div class="hero-panel-top">
-                    <span id="heroPanelLabel" class="live-pill">Live studio mode</span>
-                    <span id="heroPanelEdition" class="text-uppercase small">Portfolio edition</span>
-                  </div>
-                  <div class="hero-panel-body">
-                    <div id="heroMetrics"></div>
-                    <div class="project-preview">
-                      <div class="preview-window">
-                        <div class="preview-glow"></div>
-                        <div class="preview-grid"></div>
-                        <div class="preview-card preview-card-main">
-                          <span id="previewOneLabel">Preview</span>
-                          <strong id="previewOneTitle">Add your strongest capability here</strong>
-                        </div>
-                        <div class="preview-card preview-card-side">
-                          <span id="previewTwoLabel">Highlight</span>
-                          <strong id="previewTwoTitle">Show another differentiator here</strong>
-                        </div>
-                        <div class="preview-card preview-card-bottom">
-                          <span id="previewThreeLabel">Stack</span>
-                          <strong id="previewThreeTitle">Mention your build process or tech stack</strong>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="hero-panel-footer">
-                    <div>
-                      <span class="footer-label">Latest inbox count</span>
-                      <strong data-submission-count>0</strong>
-                    </div>
-                    <div>
-                      <span class="footer-label">Stack</span>
-                      <strong id="heroStackText">HTML, CSS, JS, Bootstrap, Node, SQLite</strong>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="marquee-band">
-          <div class="container">
-            <div id="marqueeTrack" class="marquee-track"></div>
-          </div>
-        </section>
-
-        <section id="about" class="content-section">
-          <div class="container">
-            <div class="row g-4 align-items-center">
-              <div class="col-lg-5">
-                <div class="portrait-card reveal">
-                  <p id="aboutKicker" class="section-kicker">About</p>
-                  <h2 id="aboutTitle">Write an about section that feels premium and clear.</h2>
-                  <p id="aboutText">
-                    Add a concise paragraph about what you do, who you help, and why people should trust your taste and execution.
-                  </p>
-                  <div class="about-signature">
-                    <span id="aboutSignatureName">Your Name</span>
-                    <small id="aboutSignatureRole">Your role or specialty</small>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-7">
-                <div id="aboutCards" class="row g-4"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="services" class="content-section services-section">
-          <div class="container">
-            <div class="section-heading reveal">
-              <p id="servicesKicker" class="section-kicker">Services</p>
-              <h2 id="servicesTitle">Add the services you actually want clients to book.</h2>
-            </div>
-            <div id="servicesGrid" class="row g-4"></div>
-          </div>
-        </section>
-
-        <section id="projects" class="content-section">
-          <div class="container">
-            <div class="section-heading reveal">
-              <p id="projectsKicker" class="section-kicker">Featured work</p>
-              <h2 id="projectsTitle">Show the type of work you want more of.</h2>
-            </div>
-            <div id="projectFilters" class="project-filter reveal"></div>
-            <div id="projectGrid" class="row g-4 project-grid"></div>
-          </div>
-        </section>
-
-        <section class="content-section stack-section">
-          <div class="container">
-            <div class="row g-4 align-items-start">
-              <div class="col-lg-5">
-                <div class="section-heading reveal">
-                  <p id="stackKicker" class="section-kicker">Stack and strengths</p>
-                  <h2 id="stackTitle">List the tools and strengths that make your delivery stronger.</h2>
-                </div>
-              </div>
-              <div class="col-lg-7">
-                <div id="skillCloud" class="skill-cloud reveal"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="process" class="content-section process-section">
-          <div class="container">
-            <div class="section-heading reveal">
-              <p id="processKicker" class="section-kicker">Process</p>
-              <h2 id="processTitle">Explain your build sequence in a way that creates trust.</h2>
-            </div>
-            <div id="processTimeline" class="timeline"></div>
-          </div>
-        </section>
-
-        <section class="content-section testimonial-section">
-          <div class="container">
-            <div class="row g-4">
-              <div class="col-lg-6">
-                <div class="testimonial-card reveal">
-                  <p class="quote-mark">"</p>
-                  <p id="testimonialQuote" class="testimonial-text">
-                    Add a client quote, a self-summary, or a line that reinforces your value.
-                  </p>
-                  <div class="testimonial-author">
-                    <strong id="testimonialAuthor">Client Name</strong>
-                    <span id="testimonialRole">Role or company</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div id="testimonialMetrics" class="testimonial-metrics reveal"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="contact" class="content-section contact-section">
-          <div class="container">
-            <div class="row g-4 align-items-stretch">
-              <div class="col-lg-5">
-                <div class="contact-copy reveal">
-                  <p id="contactKicker" class="section-kicker">Contact</p>
-                  <h2 id="contactTitle">Make it easy for people to reach out.</h2>
-                  <p id="contactText">
-                    Replace this text with your pitch, response expectation, or anything that makes the inquiry feel smooth and confident.
-                  </p>
-                  <div id="contactPoints" class="contact-points"></div>
-                </div>
-              </div>
-              <div class="col-lg-7">
-                <div class="form-shell reveal">
-                  <form id="contactForm" novalidate>
-                    <div class="row g-3">
-                      <div class="col-md-6">
-                        <label class="form-label" for="name">Name</label>
-                        <input class="form-control" id="name" name="name" type="text" placeholder="Your name" required />
-                      </div>
-                      <div class="col-md-6">
-                        <label class="form-label" for="email">Email</label>
-                        <input class="form-control" id="email" name="email" type="email" placeholder="you@example.com" required />
-                      </div>
-                      <div class="col-md-6">
-                        <label class="form-label" for="company">Brand or company</label>
-                        <input class="form-control" id="company" name="company" type="text" placeholder="Your company name" />
-                      </div>
-                      <div class="col-md-6">
-                        <label class="form-label" for="service">Service</label>
-                        <select class="form-select" id="service" name="service" required>
-                          <option value="">Select a service</option>
-                        </select>
-                      </div>
-                      <div class="col-12">
-                        <label class="form-label" for="budget">Budget range</label>
-                        <select class="form-select" id="budget" name="budget" required>
-                          <option value="">Choose budget</option>
-                        </select>
-                      </div>
-                      <div class="col-12">
-                        <label class="form-label" for="message">Project brief</label>
-                        <textarea
-                          class="form-control"
-                          id="message"
-                          name="message"
-                          rows="5"
-                          maxlength="1000"
-                          placeholder="Tell me about your project, goals, and deadline."
-                          required
-                        ></textarea>
-                        <div class="field-meta">
-                          <span>Write a few lines about your goal.</span>
-                          <span id="messageCount">0 / 1000</span>
-                        </div>
-                      </div>
-                      <div class="col-12">
-                        <button id="submitButton" class="btn btn-brand btn-lg w-100" type="submit">
-                          Send project inquiry
-                        </button>
-                      </div>
-                    </div>
-                  </form>
-                  <div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer class="site-footer">
+      <section class="marquee-band">
         <div class="container">
-          <div class="footer-wrap">
-            <p id="footerText">Replace this footer text with your sign-off or positioning line.</p>
-            <p>Copyright <span id="currentYear"></span> <span id="footerOwner">Your Name</span>. All rights reserved.</p>
+          <div id="marqueeTrack" class="marquee-track"></div>
+        </div>
+      </section>
+
+      <section id="about" class="content-section">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-5">
+              <div class="portrait-card reveal">
+                <p id="aboutKicker" class="section-kicker">About</p>
+                <h2 id="aboutTitle">Write an about section that feels premium and clear.</h2>
+                <p id="aboutText">
+                  Add a concise paragraph about what you do, who you help, and why people should trust your taste and
+                  execution.
+                </p>
+                <div class="about-signature">
+                  <span id="aboutSignatureName">Your Name</span>
+                  <small id="aboutSignatureRole">Your role or specialty</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div id="aboutCards" class="row g-4"></div>
+            </div>
           </div>
         </div>
-      </footer>
-    </div>
+      </section>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <script src="assets/js/content.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+      <section id="services" class="content-section services-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p id="servicesKicker" class="section-kicker">Services</p>
+            <h2 id="servicesTitle">Add the services you actually want clients to book.</h2>
+          </div>
+          <div id="servicesGrid" class="row g-4"></div>
+        </div>
+      </section>
+
+      <section id="projects" class="content-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p id="projectsKicker" class="section-kicker">Featured work</p>
+            <h2 id="projectsTitle">Show the type of work you want more of.</h2>
+          </div>
+          <div id="projectFilters" class="project-filter reveal"></div>
+          <div id="projectGrid" class="row g-4 project-grid"></div>
+        </div>
+      </section>
+
+      <section class="content-section stack-section">
+        <div class="container">
+          <div class="row g-4 align-items-start">
+            <div class="col-lg-5">
+              <div class="section-heading reveal">
+                <p id="stackKicker" class="section-kicker">Stack and strengths</p>
+                <h2 id="stackTitle">List the tools and strengths that make your delivery stronger.</h2>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div id="skillCloud" class="skill-cloud reveal"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="content-section process-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p id="processKicker" class="section-kicker">Process</p>
+            <h2 id="processTitle">Explain your build sequence in a way that creates trust.</h2>
+          </div>
+          <div id="processTimeline" class="timeline"></div>
+        </div>
+      </section>
+
+      <section class="content-section testimonial-section">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-lg-6">
+              <div class="testimonial-card reveal">
+                <p class="quote-mark">"</p>
+                <p id="testimonialQuote" class="testimonial-text">
+                  Add a client quote, a self-summary, or a line that reinforces your value.
+                </p>
+                <div class="testimonial-author">
+                  <strong id="testimonialAuthor">Client Name</strong>
+                  <span id="testimonialRole">Role or company</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div id="testimonialMetrics" class="testimonial-metrics reveal"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="content-section contact-section">
+        <div class="container">
+          <div class="row g-4 align-items-stretch">
+            <div class="col-lg-5">
+              <div class="contact-copy reveal">
+                <p id="contactKicker" class="section-kicker">Contact</p>
+                <h2 id="contactTitle">Make it easy for people to reach out.</h2>
+                <p id="contactText">
+                  Replace this text with your pitch, response expectation, or anything that makes the inquiry feel
+                  smooth and confident.
+                </p>
+                <div id="contactPoints" class="contact-points"></div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="form-shell reveal">
+                <form id="contactForm" novalidate>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label class="form-label" for="name">Name</label>
+                      <input class="form-control" id="name" name="name" type="text" placeholder="Your name" required />
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label" for="email">Email</label>
+                      <input class="form-control" id="email" name="email" type="email" placeholder="you@example.com"
+                        required />
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label" for="company">Brand or company</label>
+                      <input class="form-control" id="company" name="company" type="text"
+                        placeholder="Your company name" />
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label" for="service">Service</label>
+                      <select class="form-select" id="service" name="service" required>
+                        <option value="">Select a service</option>
+                      </select>
+                    </div>
+                    <div class="col-12">
+                      <label class="form-label" for="budget">Budget range</label>
+                      <select class="form-select" id="budget" name="budget" required>
+                        <option value="">Choose budget</option>
+                      </select>
+                    </div>
+                    <div class="col-12">
+                      <label class="form-label" for="message">Project brief</label>
+                      <textarea class="form-control" id="message" name="message" rows="5" maxlength="1000"
+                        placeholder="Tell me about your project, goals, and deadline." required></textarea>
+                      <div class="field-meta">
+                        <span>Write a few lines about your goal.</span>
+                        <span id="messageCount">0 / 1000</span>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button id="submitButton" class="btn btn-brand btn-lg w-100" type="submit">
+                        Send project inquiry
+                      </button>
+                    </div>
+                  </div>
+                </form>
+                <div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <p id="footerText">Replace this footer text with your sign-off or positioning line.</p>
+          <p>Copyright <span id="currentYear"></span> <span id="footerOwner">Your Name</span>. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/content.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
